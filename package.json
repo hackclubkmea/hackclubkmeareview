@@ -1,0 +1,14 @@
+{
+  "name": "hackclubkmeareview",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hackclubkmea/hackclubkmeareview.git",
+  "author": "Abin Joseph <itsmeabjs@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write 'review.json' 'README.md'"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}

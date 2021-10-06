@@ -6,7 +6,9 @@
 # Hack Club Kmea Review
 
 
-This is a repo for all to rate Hackclubkmea
+## This is an repository give review for hack club kmea the you can see the review from the website after successfull merge 
+
+# [WebSite](https://hackclubkmea.github.io/hackclubkmeareview/)
 
 ```
 
