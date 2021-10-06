@@ -1,0 +1,21 @@
+name: CodeTest
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test-content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+      - name: Read Properties
+        id: read_property
+        uses: ashley-taylor/read-json-property-action@v1.0
+        with:
+          path: review.json
+          property: artifact
+      - name: echo artifact
+        run: echo ${{ steps.read_property.outputs.value }}
