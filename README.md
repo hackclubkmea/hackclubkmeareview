@@ -3,9 +3,9 @@
 + Update review.json file with your review
 ```
 
-#            Hack Club Kmea Review
+# Hack Club Kmea Review
 
-##         This is an repository give review for hack club kmea the you can see the review from the website after successfully merge
+## This is an repository give review for hack club kmea the you can see the review from the website after successfully merge
 
 # [WebSite](https://hackclubkmea.github.io/hackclubkmeareview/)
 
