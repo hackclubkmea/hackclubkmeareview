@@ -1,11 +1,11 @@
-name: CodeTest
+name: JSON_PROPERTY
 
 on:
   pull_request:
   workflow_dispatch:
 
 jobs:
-  test-content:
+  property:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
