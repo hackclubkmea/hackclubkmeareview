@@ -1,4 +1,4 @@
-name: Formant
+name: Formant code
 on:
   pull_request:
   push:
@@ -16,14 +16,10 @@ jobs:
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
     - name: Setup Node.js environment
       uses: actions/setup-node@v2.4.1
-    - name: Install Dependencies
+    - name: Format code and push
       run: |
         npm install
-    - name: Format Code
-      run: |
         npm run format
-    - name: Commit files
-      run: |
         git status
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
