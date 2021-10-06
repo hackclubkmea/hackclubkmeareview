@@ -1,0 +1,31 @@
+name: CodeTest
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test-content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+           fetch-depth: 2
+      - name: Run test Script
+        run: sh test.sh
+          
+  test-commits:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          
+      - name: PR Commits Count
+        id: commit_count
+        run: |
+          echo "::set-output name=count::$(git log --oneline "origin/${{ github.head_ref }}" \^"origin/${{ github.base_ref }}" | wc -l)"
+   
+      - if: ${{ steps.commit_count.outputs.count != 1 }}
+        run: echo "Number of commits not equal to 1" && exit 1
