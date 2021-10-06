@@ -1,4 +1,10 @@
-# hackclubkmeareview
+```diff
+- Do Not Delete README.md  You can Improve the readability of the  document
++ Update review.json file with your review
+```
+
+# Hack Club Kmea Review
+
 
 This is an Repo for all to rete hackclubkmea
 
@@ -22,6 +28,10 @@ This is an Repo for all to rete hackclubkmea
 
 ```
 
-## Update  review.json
+## Update review.json
 
 ### number , [ Name of User ] ,[Github User Name] , [ review ]
+
+# [How to Write JSON](https://www.youtube.com/results?search_query=how+to+write+a+vaild+json+doument)
+
+# To Cheek Json File Is Valid [Goto](https://jsonlint.com/)
