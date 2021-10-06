@@ -18,6 +18,7 @@ jobs:
       uses: actions/setup-node@v2.4.1
     - name: Commit files
       run: |
+        npm install
         npm run format
         git status
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
