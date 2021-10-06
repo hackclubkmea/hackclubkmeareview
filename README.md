@@ -1,12 +1,11 @@
 ```diff
-- Do Not Delete README.md. You can Improve the readability of the  document
+- Do Not Delete README.md  You can Improve the readability of the  document
 + Update review.json file with your review
 ```
 
 # Hack Club Kmea Review
 
-
-## This is an repository give review for hack club kmea the you can see the review from the website after successfull merge 
+## This is an repository give review for hack club kmea the you can see the review from the website after successfully merge
 
 # [WebSite](https://hackclubkmea.github.io/hackclubkmeareview/)
 
@@ -36,4 +35,4 @@
 
 # [How to Write JSON](https://www.youtube.com/results?search_query=how+to+write+a+vaild+json+doument)
 
-# To Check If Json File Is Valid, [Goto](https://jsonlint.com/)
+# To Cheek Json File Is Valid [Goto](https://jsonlint.com/)
