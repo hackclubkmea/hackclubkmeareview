@@ -1,21 +1,15 @@
-name: JSON_PROPERTY
-
-on:
-  pull_request:
-  workflow_dispatch:
+name: Formant
+on: [push, pull_request]
 
 jobs:
-  property:
+  build:
+    name: Prettier
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          fetch-depth: 2
-      - name: Read Properties
-        id: read_property
-        uses: ashley-taylor/read-json-property-action@v1.0
-        with:
-          path: review.json
-          property: artifact
-      - name: echo artifact
-        run: echo ${{ steps.read_property.outputs.value }}
+      - uses: bahmutov/npm-install@v1
+      - run: npm run format
+      - run: git status
+      - uses: mikeal/publish-to-github-action@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
