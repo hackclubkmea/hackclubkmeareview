@@ -36,3 +36,9 @@
 # [How to Write JSON](https://www.youtube.com/results?search_query=how+to+write+a+vaild+json+doument)
 
 # To Cheek Json File Is Valid [Goto](https://jsonlint.com/)
+
+# To format json and md file run the following commands from project folder before pull request
+
+- yarn / npm install
+
+- yarn format / npm run format
