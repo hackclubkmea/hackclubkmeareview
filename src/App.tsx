@@ -8,9 +8,9 @@ export default function App() {
       const response = await fetch(
         "https://raw.githubusercontent.com/hackclubkmea/hackclubkmeareview/main/review.json"
       );
-      const data = await response.json();
-      const dataArray = Object.keys(data).map((key) => data[key]);
-      setReviewData(dataArray);
+      const { data } = await response.json();
+      // const dataArray = Object.keys(data).map((key) => data[key]);
+      setReviewData(data);
     }
     fetchData();
   }, []);
