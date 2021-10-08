@@ -69,6 +69,7 @@
     "github": "https://github.com/farzanakhareem",
     "review": "It's a wonderful platform."
   },
+
   "15": {
     "name": "Rasha Shajahan",
     "github": "https://github.com/Rasahajahan",
@@ -95,7 +96,10 @@
     "review": "Hack Club KMEA would be a great exposure opportunity for all. Gave awsome oppertunity for exploring technical skills and learning new things!"
   },
 
-
-
+  "20":{
+    "name":"Roushath Bevevi K S",
+    "github": "https://github.com/Roushathbeeviks",
+    "review": "Hackclub is a self learning platform"
+  },
 
 }
