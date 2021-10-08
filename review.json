@@ -7,7 +7,6 @@
   "2": {
     "name": "Salman Nazeer",
     "github": "https://github.com/salmanselu",
-
     "review": "Hack Club is a great experience for me. Hack Club opened up many learning paths for me."
   },
   "3": {
@@ -30,28 +29,29 @@
     "github": "https://github.com/Anju-Gopan",
     "review": "Its Awesome !!"
   },
- "7":{
-    "name":"Pooja M P",
+  "7": {
+    "name": "Pooja M P",
     "github": "https://github.com/poojamp48",
     "review": "Hack Club really helps in bringing out the best in me."
   },
-   "8":{
-    "name":"Haripriya ks",
+  "8": {
+    "name": "Haripriya ks",
     "github": "https://github.com/Haripriya-ks",
     "review": "Its a great  opportunity."
   },
-  "9": "POOJA LAKSHMI",
-  "github":'https://github.com/pooja lakshmi",
-  "review":"hack club always try to be the best!"
-},
-  "10":{
-  "name":"Athira Menon",
-    "github":"https://github.com/athiramenon",
-    "review":"Hack clubreally inspires me."
+  "9": {
+    "name": "POOJA LAKSHMI",
+    "github": "https://github.com/pooja lakshmi",
+    "review": "hack club always try to be the best!"
   },
- "11":{
-    "name":"Sandra Santhosh",
+  "10": {
+    "name": "Athira Menon",
+    "github": "https://github.com/athiramenon",
+    "review": "Hack clubreally inspires me."
+  },
+  "11": {
+    "name": "Sandra Santhosh",
     "github": "https://github.com/sandrasanthosh31",
     "review": "Great opportunity"
-  } 
+  }
 }
