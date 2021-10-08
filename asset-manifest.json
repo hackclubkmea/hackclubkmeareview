@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hackclubkmeareview/static/css/main.851e15c9.chunk.css",
+    "main.css": "/hackclubkmeareview/static/css/main.2c9bf41d.chunk.css",
     "main.js": "/hackclubkmeareview/static/js/main.94d667e2.chunk.js",
     "main.js.map": "/hackclubkmeareview/static/js/main.94d667e2.chunk.js.map",
     "runtime-main.js": "/hackclubkmeareview/static/js/runtime-main.2b697423.js",
@@ -8,13 +8,13 @@
     "static/js/2.8a5b21b9.chunk.js": "/hackclubkmeareview/static/js/2.8a5b21b9.chunk.js",
     "static/js/2.8a5b21b9.chunk.js.map": "/hackclubkmeareview/static/js/2.8a5b21b9.chunk.js.map",
     "index.html": "/hackclubkmeareview/index.html",
-    "static/css/main.851e15c9.chunk.css.map": "/hackclubkmeareview/static/css/main.851e15c9.chunk.css.map",
+    "static/css/main.2c9bf41d.chunk.css.map": "/hackclubkmeareview/static/css/main.2c9bf41d.chunk.css.map",
     "static/js/2.8a5b21b9.chunk.js.LICENSE.txt": "/hackclubkmeareview/static/js/2.8a5b21b9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2b697423.js",
     "static/js/2.8a5b21b9.chunk.js",
-    "static/css/main.851e15c9.chunk.css",
+    "static/css/main.2c9bf41d.chunk.css",
     "static/js/main.94d667e2.chunk.js"
   ]
 }
