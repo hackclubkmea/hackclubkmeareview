@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import "./App.css";
 import logo_github from "./images/github.png";
 export default function App() {
   const [reviewData, setReviewData] = useState<ReviewComponentProps[] | []>([]);
@@ -9,7 +8,6 @@ export default function App() {
         "https://raw.githubusercontent.com/hackclubkmea/hackclubkmeareview/main/review.json"
       );
       const { data } = await response.json();
-      // const dataArray = Object.keys(data).map((key) => data[key]);
       setReviewData(data);
     }
     fetchData();
