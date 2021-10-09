@@ -9,20 +9,22 @@
 
 # [WebSite](https://hackclubkmea.github.io/hackclubkmeareview/)
 
-```
+```diff
 
 {
-  "1": {
-    "name": "Abin Joseph",
-    "github": "https://github.com/abjs",
-    "review": "Hack Club Is Good"
-  },
-  "[number]": {
-    "name": "[ Name of User ]",
-    "github": "https://github.com/[Github User Name]",
-    "review": "[ review ]"
-  },
-
+ "data": [
+    {
+      "name": "Abin Joseph",
+      "github": "https://github.com/abjs",
+      "review": "Hack club kmea  is the one of the active club in kmea"
+    }
++    ,
++    {
++    "name": "[ Your Name ]",
++    "github": "https://github.com/[ User Github Name]",
++    "review": "[your review ]"
++    }
+  ]
 }
 
 
