@@ -11,11 +11,6 @@
       "review": "Hack Club is a great experience for me. Hack Club opened up many learning paths for me."
     },
     {
-      "name": "Abin Joseph",
-      "github": "https://github.com/abinjosephjosegiri",
-      "review": "Hack club kmea  is the one of the active club in kmea"
-    },
-    {
       "name": "MUHAMMED RAEES",
       "github": "https://github.com/muhammedraeespy",
       "review": "Hack Club KMEA would be a great exposure opportunity for all."
@@ -102,11 +97,6 @@
       "review": "Hack club Kmea  is an active student community which helps students to achieve their full potential,make their contribution to the communities"
     },
     {
-      "name": "Mansoor Majeed",
-      "github": "https://github.com/Mans22r",
-      "review": "Hack Club KMEA would be a great exposure opportunity for all. Gave awsome oppertunity for exploring technical skills and learning new things!"
-    },
-    {
       "name": "Roushath Bevevi K S",
       "github": "https://github.com/Roushathbeeviks",
       "review": "Hackclub is a self learning platform"
@@ -160,6 +150,11 @@
       "name": "Ajmal E B",
       "github": "https://github.com/ajmaleb",
       "review": "Its a good opportunity for learning new skills."
+    },
+    {
+      "name": "Abin Joseph",
+      "github": "https://github.com/abinjosephjosegiri",
+      "review": "Hack club kmea  is the one of the active club in kmea"
     }
   ]
 }
